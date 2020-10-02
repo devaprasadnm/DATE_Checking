@@ -59,7 +59,7 @@ void dates::output() {
   } else if (day != last) {
     day++;
   }
-  cout << day << "/" << month << "/" << year;
+  cout << day << "-" << month << "-" << year;
 }
 //valid
 void dates::valid() {
